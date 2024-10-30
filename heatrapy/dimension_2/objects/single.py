@@ -103,6 +103,7 @@ class SingleObject:
                 if drawing == 'temperature':
                     self.figure = plt.figure()
                     self.ax = self.figure.add_subplot(111)
+                    plt.title("HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
                     temp = []
                     for i in range(self.object.size[0]):
                         temp.append([])
